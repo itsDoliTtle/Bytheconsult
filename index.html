@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A==" crossorigin="anonymous"
+    referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="Main_container_nav">
+            <nav>
+                <h2 class="logo">Hotel<span>Logo</span></h2>
+                <ul>
+                    <li><a href="#home" >HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="booking/book.html">BOOKING</a></li>
+                    <!-- <li><a href="#portfolio">Portfolio</a></li> -->
+                    <li><a href="#">CONTACT</a></li>  
+                    <a href="Login/login.html" class="btnn"><span>Login</span></a>
+                    <a href="Register/register.html" class="btnn">Register</a>
+
+                </ul>
+            </nav>
+        </div>
+
+        <div class="containing">
+            <section class="home" id="home">
+                <div class="head_container">
+                  <div class="box">
+                    <div class="text">
+                      <h1>Hotel.Name.Hotel</h1>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                      <button>MORE INFO</button>
+                    </div>
+                  </div>
+                  <div class="image">
+                    <img src="img/home1.jpg" class="slide">
+                  </div>
+                  <div class="image_item">
+                    <img src="img/home1.jpg" alt="" class="slide active" onclick="img('img/home1.jpg')">
+                    <img src="img/home2.jpg" alt="" class="slide" onclick="img('img/home2.jpg')">
+                    <img src="img/home3.jpg" alt="" class="slide" onclick="img('img/home3.jpg')">
+                    <img src="img/home4.jpg" alt="" class="slide" onclick="img('img/home4.jpg')">
+                  </div>
+                </div>
+              </section>
+
+              <section class="book">
+                <div class="container flex">
+                  <div class="input grid">
+                    <div class="box">
+                      <label>Check-in:</label>
+                      <input type="date" placeholder="Check-in-Date">
+                    </div>
+                    <div class="box">
+                      <label>Check-out:</label>
+                      <input type="date" placeholder="Check-out-Date">
+                    </div>
+                    <div class="box">
+                      <label>Adults:</label> <br>
+                      <input type="number" placeholder="0">
+                    </div>
+                    <div class="box">
+                      <label>Children:</label> <br>
+                      <input type="number" placeholder="0">
+                    </div>
+                  </div>
+                  <div class="search">
+                    <input type="submit" value="SEARCH">
+                  </div>
+                </div>
+              </section>
+
+              <section class="room top" id="room">
+                <div class="container">
+                  <div class="heading_top flex1">
+                    <div class="heading">
+                      <h5>RAISING COMFORT TO THE HIGHEST LEVEL</h5>
+                      <h2>Rooms $ Suites</h2>
+                    </div>
+                    <div class="button">
+                      <button class="btn1">VIEW ALL</button>
+                    </div>
+                  </div>
+            
+                  <div class="content grid">
+                    <div class="box">
+                      <div class="img">
+                        <img src="img/r1.jpg" alt="">
+                      </div>
+                      <div class="text">
+                        <h3>Superior Soble Rooms</h3>
+                        <p> <span>$</span>129 <span>/per night</span> </p>
+                      </div>
+                    </div>
+                    <div class="box">
+                      <div class="img">
+                        <img src="img/r2.jpg" alt="">
+                      </div>
+                      <div class="text">
+                        <h3>Superior Soble Rooms</h3>
+                        <p> <span>$</span>129 <span>/per night</span> </p>
+                      </div>
+                    </div>
+                    <div class="box">
+                      <div class="img">
+                        <img src="img/r3.jpg" alt="">
+                      </div>
+                      <div class="text">
+                        <h3>Superior Soble Rooms</h3>
+                        <p> <span>$</span>129 <span>/per night</span> </p>
+                      </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="img">
+                          <img src="img/r1.jpg" alt="">
+                        </div>
+                        <div class="text">
+                          <h3>Superior Soble Rooms</h3>
+                          <p> <span>$</span>129 <span>/per night</span> </p>
+                        </div>
+                      </div>
+                      <div class="box">
+                        <div class="img">
+                          <img src="img/r2.jpg" alt="">
+                        </div>
+                        <div class="text">
+                          <h3>Superior Soble Rooms</h3>
+                          <p> <span>$</span>129 <span>/per night</span> </p>
+                        </div>
+                      </div>
+                      <div class="box">
+                        <div class="img">
+                          <img src="img/r3.jpg" alt="">
+                        </div>
+                        <div class="text">
+                          <h3>Superior Soble Rooms</h3>
+                          <p> <span>$</span>129 <span>/per night</span> </p>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </section>
+              
+        </div>
+    </div>
+    <script src="hotel.js"></script>
+</body>
+</html>
