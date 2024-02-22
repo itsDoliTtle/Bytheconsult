@@ -109,7 +109,7 @@ body{
     align-items: center;
     padding-right: 1rem;
     width: 100%;
-    color: var(--purple);
+    /* color: var(--purple); */
 }
 .search-box input{
   /* background-color: #867e7e4b; */
@@ -126,10 +126,10 @@ body{
     cursor: pointer;
 }
 .search-box input::placeholder{
-    outline: auto;
+    /* outline: auto; */
     font-size: 1rem;
     font-weight: 500;
-    color: var(--purple);
+    /* color: var(--purple); */
 }
 
 
