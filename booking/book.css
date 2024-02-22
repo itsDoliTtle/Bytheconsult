@@ -195,3 +195,18 @@ nav .btnn:hover{
     width: 200px;
     /* text-align: center; */
 }
+
+.btn{
+    padding: 10px 20px;
+    background: #ff004f;
+    outline: none;
+    text-decoration: none;
+    border: 2px solid rgba(255, 255, 255, 0.315);
+    border-radius: 50px;
+    color: white;
+    font-weight: 600;
+    display: inline-flex;
+    margin: 20px;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
