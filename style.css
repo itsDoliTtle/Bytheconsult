@@ -82,7 +82,7 @@ nav ul li a:hover::after{
     width: 100%;
 }
 nav .btnn{
-    display: none;
+    /* display: none; */
     /* width: 80px; */
     padding: 10px;
     background-color: #ff004f;
